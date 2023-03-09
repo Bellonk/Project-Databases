@@ -530,11 +530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenUI\\SomerenUI.csproj",
+      "projectUniqueName": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenUI\\SomerenUI.csproj",
       "projectName": "SomerenUI",
-      "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenUI\\SomerenUI.csproj",
+      "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenUI\\SomerenUI.csproj",
       "packagesPath": "C:\\Users\\Joris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenUI\\obj\\",
+      "outputPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -556,11 +556,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
-              "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenModel\\SomerenModel.csproj"
+            "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenModel\\SomerenModel.csproj": {
+              "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenModel\\SomerenModel.csproj"
             },
-            "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenService\\SomerenService.csproj": {
-              "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenService\\SomerenService.csproj"
+            "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenService\\SomerenService.csproj": {
+              "projectPath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenService\\SomerenService.csproj"
             }
           }
         }

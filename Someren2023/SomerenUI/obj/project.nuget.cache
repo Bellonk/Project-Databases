@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3GcNLMcVTSkHtEWVeQMxrfn40g0sjl3225gDJoMnRKtET9RXPjbBn76whPkD8ghnV1ZJx4IRtdyMLCBkzKRP+Q==",
+  "dgSpecHash": "8On9arS0c3O/cdz3ZK99+/81LkltIhCFTi6LXpG7ACTAHADpP71cpDlFfY/sVByGN+JVyjNr+jWQV1HK4Gbv+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenUI\\SomerenUI.csproj",
+  "projectFilePath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenUI\\SomerenUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joris\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Joris\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

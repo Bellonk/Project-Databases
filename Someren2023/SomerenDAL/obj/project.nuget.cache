@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "54YugJhKuOeByCGhaCt47MAhDtNjSkvOe05Lff+jgpm0lLEPIzTrvseF1+mZTOW9qQOX9c/B8VtylpvmmzOUBg==",
+  "dgSpecHash": "4ydYgMvahTC+ps8L1mvSXNx0rX9xb2RXQQNWtd53q0fsOGonzVLzRMnj5SUl0j1JBkfeqtux2qGy9Y08xv5VqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joris\\OneDrive\\Documenten\\IT\\Periode 3\\Project databases\\assignment2\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
+  "projectFilePath": "C:\\Users\\Joris\\OneDrive\\Documenten\\GitHub\\Project-Databases\\Someren2023\\SomerenDAL\\SomerenDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joris\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Joris\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
