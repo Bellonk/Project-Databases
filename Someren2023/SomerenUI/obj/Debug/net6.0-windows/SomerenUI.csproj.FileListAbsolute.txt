@@ -29,3 +29,7 @@ C:\Users\gerwin.vandijken\source\repos\Someren\SomerenUI\obj\Debug\net6.0-window
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenUI\obj\Debug\net6.0-windows\SomerenUI.pdb
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenUI\obj\Debug\net6.0-windows\SomerenUI.genruntimeconfig.cache
 C:\Users\gerwin.vandijken\source\repos\Someren\SomerenUI\obj\Debug\net6.0-windows\ref\SomerenUI.dll
+C:\Users\Joris\OneDrive\Documenten\GitHub\Project-Databases\Someren2023\SomerenUI\obj\Debug\net6.0-windows\SomerenUI.csproj.AssemblyReference.cache
+C:\Users\Joris\OneDrive\Documenten\GitHub\Project-Databases\Someren2023\SomerenUI\obj\Debug\net6.0-windows\SomerenUI.dll
+C:\Users\Joris\OneDrive\Documenten\GitHub\Project-Databases\Someren2023\SomerenUI\obj\Debug\net6.0-windows\refint\SomerenUI.dll
+C:\Users\Joris\OneDrive\Documenten\GitHub\Project-Databases\Someren2023\SomerenUI\obj\Debug\net6.0-windows\SomerenUI.pdb
