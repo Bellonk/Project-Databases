@@ -1,0 +1,3 @@
+user: team
+psswd: Project-Databases
+server: project-databases.database.windows.net
