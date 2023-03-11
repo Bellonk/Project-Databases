@@ -3,6 +3,7 @@ using SomerenModel;
 using System.Windows.Forms;
 using System.Collections.Generic;
 using System;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace SomerenUI
 {
@@ -56,7 +57,10 @@ namespace SomerenUI
 
             foreach (Student student in students)
             {
-                ListViewItem li = new ListViewItem(student.Name);
+                //Splitting up student.Name into first and lastname
+                string[] entireName = student.Name.Split(" ");
+
+                ListViewItem li = new ListViewItem(new string[]{ $"{student.Number}", $"{entireName[0]}", $"{entireName[1]}" });
                 li.Tag = student;   // link student object to listview item
                 listViewStudents.Items.Add(li);
             }
@@ -84,34 +88,12 @@ namespace SomerenUI
 
         private void lblStudentnumber_Click(object sender, EventArgs e)
         {
-            //removing "click here" and adding collumns
-            lblClickHere.Text = "";
 
-            lblstudentnumber.Text = "Studentnumber";
-            lblfrstname.Text = "Firstname";
-            lbllstname.Text = "Lastname";
-
-            //Getting the students info from the database
-            StudentService newStudents = new StudentService();
-            List<Student> students = newStudents.GetStudents();
-
-            //writing the info in the somerenUI
-            foreach (Student student in students)
-            {
-                //Splitting up student.Name into first and lastname
-                string[] entireName = student.Name.Split(" ");
-
-                //printing to the UI
-                lblstudentId.Text += $"{student.Number}\n";
-                lblfirst.Text += $"{entireName[0]}\n";
-                lbllast.Text += $"{entireName[1]}\n";
-
-            }
         }
 
         private void listViewStudents_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

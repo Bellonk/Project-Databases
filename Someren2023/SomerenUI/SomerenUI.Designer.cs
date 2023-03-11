@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SomerenUI));
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dashboardToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +54,7 @@
             this.lblstudentnumber = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listViewStudents = new System.Windows.Forms.ListView();
+            this.studentnumber = new System.Windows.Forms.ColumnHeader();
             this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.pnlDashboard.SuspendLayout();
@@ -219,11 +221,10 @@
             // lblClickHere
             // 
             this.lblClickHere.AutoSize = true;
-            this.lblClickHere.Location = new System.Drawing.Point(27, 53);
+            this.lblClickHere.Location = new System.Drawing.Point(33, 68);
             this.lblClickHere.Name = "lblClickHere";
-            this.lblClickHere.Size = new System.Drawing.Size(206, 15);
+            this.lblClickHere.Size = new System.Drawing.Size(0, 15);
             this.lblClickHere.TabIndex = 6;
-            this.lblClickHere.Text = "Click here for the student information";
             this.lblClickHere.Click += new System.EventHandler(this.lblStudentnumber_Click);
             // 
             // lbllstname
@@ -262,12 +263,22 @@
             // 
             // listViewStudents
             // 
-            this.listViewStudents.Location = new System.Drawing.Point(16, 42);
+            this.listViewStudents.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.studentnumber});
+            this.listViewStudents.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
+            this.listViewStudents.Location = new System.Drawing.Point(13, 42);
             this.listViewStudents.Name = "listViewStudents";
             this.listViewStudents.Size = new System.Drawing.Size(766, 307);
             this.listViewStudents.TabIndex = 1;
             this.listViewStudents.UseCompatibleStateImageBehavior = false;
+            this.listViewStudents.View = System.Windows.Forms.View.Details;
             this.listViewStudents.SelectedIndexChanged += new System.EventHandler(this.listViewStudents_SelectedIndexChanged);
+            // 
+            // studentnumber
+            // 
+            this.studentnumber.Text = "";
+            this.studentnumber.Width = 80;
             // 
             // label1
             // 
@@ -329,5 +340,6 @@
         private System.Windows.Forms.Label lblnumber;
         private System.Windows.Forms.Label lbllast;
         private System.Windows.Forms.Label lblstudentId;
+        private System.Windows.Forms.ColumnHeader studentnumber;
     }
 }
