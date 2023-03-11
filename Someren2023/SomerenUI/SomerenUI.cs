@@ -55,12 +55,18 @@ namespace SomerenUI
             // clear the listview before filling it
             listViewStudents.Clear();
 
+            // making the columns
+            listViewStudents.Columns.Add("StudentID", 80);
+            listViewStudents.Columns.Add("Firstname", 80);
+            listViewStudents.Columns.Add("Lastname", 80);
+
             foreach (Student student in students)
             {
-                //Splitting up student.Name into first and lastname
+                // Splitting up student.Name into first and lastname
                 string[] entireName = student.Name.Split(" ");
 
-                ListViewItem li = new ListViewItem(new string[]{ $"{student.Number}", $"{entireName[0]}", $"{entireName[1]}" });
+                // adding item to the listview
+                ListViewItem li = new ListViewItem(new string[] { $"{student.Number}", $"{entireName[0]}", $"{entireName[1]}" } );
                 li.Tag = student;   // link student object to listview item
                 listViewStudents.Items.Add(li);
             }
