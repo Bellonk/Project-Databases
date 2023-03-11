@@ -1,4 +1,5 @@
 Assignment week 2 Deel A 
+
 Joris Jongejans
 706114
 
