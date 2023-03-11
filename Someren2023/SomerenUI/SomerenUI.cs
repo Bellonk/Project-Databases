@@ -76,5 +76,42 @@ namespace SomerenUI
         {
             ShowStudentsPanel();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblStudentnumber_Click(object sender, EventArgs e)
+        {
+            //removing "click here" and adding collumns
+            lblClickHere.Text = "";
+
+            lblstudentnumber.Text = "Studentnumber";
+            lblfrstname.Text = "Firstname";
+            lbllstname.Text = "Lastname";
+
+            //Getting the students info from the database
+            StudentService newStudents = new StudentService();
+            List<Student> students = newStudents.GetStudents();
+
+            //writing the info in the somerenUI
+            foreach (Student student in students)
+            {
+                //Splitting up student.Name into first and lastname
+                string[] entireName = student.Name.Split(" ");
+
+                //printing to the UI
+                lblstudentId.Text += $"{student.Number}\n";
+                lblfirst.Text += $"{entireName[0]}\n";
+                lbllast.Text += $"{entireName[1]}\n";
+
+            }
+        }
+
+        private void listViewStudents_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
